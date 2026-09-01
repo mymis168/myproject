@@ -4,7 +4,7 @@ import streamlit as st
 
 
 st.title("用streamlit 架站")
-
+st.write("ci/cd")
 #左側選單
 #st.sidebar.title("選單")
 #st.sidebar.write("這是選單的內容")
