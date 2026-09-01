@@ -1,0 +1,21 @@
+# uv add streamlit 
+# streamlit run app.py
+import streamlit as st
+
+
+st.title("用streamlit 架站")
+
+#左側選單
+#st.sidebar.title("選單")
+#st.sidebar.write("這是選單的內容")
+
+with st.sidebar:
+    st.header("選單標題")
+    st.write("選單內容")
+    st.button("按鈕A")
+    st.button("按鈕K")
+  
+
+#網頁 footer bottom 聯絡資訊
+st.bottom.header("關於我")
+st.bottom.text("聯絡資訊: email: mymis168@gmail.com")
