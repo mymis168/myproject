@@ -18,7 +18,7 @@ with c1:
 
 st.divider()
 st.header("肺癌臨床治死亡率比較")
-st.image("images/lung.png", caption="肺癌臨床治療存活率比較圖", use_column_width=True)
+st.image("images/l2.jpg", caption="肺癌臨床治療存活率比較圖", use_column_width=True)
 
 # Layout (B) Sidebar
 with st.sidebar:
