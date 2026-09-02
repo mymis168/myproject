@@ -11,3 +11,8 @@ with tab1:
 with tab2:
     st.header("依家族史與吸菸史分布")
     st.image("images/lung.png", caption="依家族史與吸菸史分布圖")
+
+with tab3:
+    st.header("Power BI 操作流程示範")
+    st.video("https://www.youtube.com/watch?v=9RcQUhlIb_Y", format="video/mp4", start_time="2 m 30s" , end_time="10 m",autoplay=True, muted=True) 
+    #st.video("images/PowerBI操作流程示範.mp4", format="video/mp4", start_time=0)
